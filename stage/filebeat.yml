@@ -1,0 +1,11 @@
+
+filebeat.prospectors:
+- type: log
+  enabled: true
+  paths:
+    - "*.log"
+
+logging.level: debug
+
+output.firehose:
+    region: eu-central-1
